@@ -33,6 +33,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'guard'
+  gem 'guard-minitest'
 end
 
 group :production do
