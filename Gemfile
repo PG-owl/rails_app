@@ -35,6 +35,8 @@ group :test do
   gem "webdrivers"
   gem 'guard'
   gem 'guard-minitest'
+  gem 'minitest', group: :test
+  gem 'minitest-reporters', group: :test 
 end
 
 group :production do
